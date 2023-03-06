@@ -1,0 +1,100 @@
+
+
+
+:root {
+    --background-color: #0369A1;
+    --background-color-digital: #000000;
+    --counter-color: #F94F6D;
+    --num-color-stroke: #9AABD8;
+
+}
+
+@font-face {
+    font-family: "CursedTimerULiL";
+    src: url('/font/CursedTimerULiL.ttf');
+}
+
+
+
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'verdana', sans-serif;
+    margin: 0;
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    justify-content: space-around; 
+}
+
+h3 {
+    font-family: 'cursed-timer-ulil', sans-serif;
+    font-size: 40px;
+    
+    
+}
+
+
+.header-home {
+    text-align: center;
+}
+
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: 155px;
+    height: 120px;
+    color: var(--counter-color);
+    font-family: "CursedTimerULiL",sans-serif;
+    font-size: 100px;
+    
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.one, .two, .tre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'verdana', sans-serif;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    
+    color: white;
+    margin-right: 22px;
+}
+
+.one:hover, .two:hover, .tre:hover {
+    background-color: gray;
+    
+}
+
+.no {
+    color: #F94F6D;
+}
